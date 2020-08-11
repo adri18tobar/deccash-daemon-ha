@@ -1,0 +1,1055 @@
+2020-Jun-30 10:52:34.017058 INFO    [daemon] 
+
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+ Deccash v1.2.2.0002 ()
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2020, The Deccash Project
+
+ Copyright (c) 2019, The Deccash Project, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/deccash/dec/
+
+
+2020-Jun-30 10:52:34.017510 INFO    [daemon] Program Working Directory: /home/deccash/deccash-daemon-ha/decd
+2020-Jun-30 10:52:34.017763 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2020-Jun-30 10:52:34.017825 INFO    [daemon] Loaded 0 default checkpoints
+2020-Jun-30 10:52:34.017971 INFO    [RocksDBWrapper] Opening DB in /home/deccash/.Deccash/DB
+2020-Jun-30 10:52:34.019187 INFO    [RocksDBWrapper] DB not found in /home/deccash/.Deccash/DB. Creating new DB...
+2020-Jun-30 10:52:34.026924 INFO    [daemon] Initializing core...
+2020-Jun-30 10:52:34.027836 INFO    [daemon] Core initialized OK
+2020-Jun-30 10:52:34.027941 INFO    [daemon] Initializing p2p server...
+2020-Jun-30 10:52:34.028068 INFO    [node_server] Generated new peer ID: 7302469592901841133
+2020-Jun-30 10:52:34.028118 INFO    [node_server] Binding on 0.0.0.0:28288
+2020-Jun-30 10:52:34.028193 INFO    [node_server] Net service binded on 0.0.0.0:28288
+2020-Jun-30 10:52:34.028240 INFO    [node_server] Attempting to add IGD port mapping.
+2020-Jun-30 10:52:38.033009 INFO    [node_server] No IGD was found.
+2020-Jun-30 10:52:38.033134 INFO    [daemon] P2p server initialized OK
+2020-Jun-30 10:52:38.033419 INFO    [daemon] Starting core rpc server on address 127.0.0.1:28287
+2020-Jun-30 10:52:38.033541 INFO    [daemon] Core rpc server started ok
+2020-Jun-30 10:52:38.033600 INFO    [daemon] Starting p2p net loop...
+2020-Jun-30 10:52:38.033658 INFO    [node_server] Starting node_server
+2020-Jun-30 10:52:38.034537 INFO    [protocol] [192.187.106.179:36135 INC] Your Deccash node is syncing with the network (0.01% complete) You are 11658 blocks (32 days) behind the current peer you're connected to. Be Deccash and enjoy! 
+2020-Jun-30 10:52:38.034620 INFO    [protocol] New Top Block Detected: 11659
+2020-Jun-30 10:52:38.887813 INFO    [protocol] [167.86.94.121:46533 INC] Your Deccash node is syncing with the network (0.01% complete) You are 11658 blocks (32 days) behind the current peer you're connected to. Be Deccash and enjoy! 
+2020-Jun-30 10:52:40.543504 INFO    [Core] Block 100 (5e67618185ad2e7cddad0b128dd8f86f72436998b783c359099fabf9d6ac09ca) added to main chain
+2020-Jun-30 10:52:42.303041 INFO    [Core] Block 200 (d9275997c4f42f716da27baba12756ce51b72c687a31d1d531020656b7d86674) added to main chain
+2020-Jun-30 10:52:43.644101 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2020-Jun-30 10:52:43.659951 DEBUG   [DatabaseBlockchainCache] push block with hash e170eb722efb771dc893a9381c0208495a6be047cf2111c7a052ffbeb9583204, and 2 transactions
+2020-Jun-30 10:52:43.660292 DEBUG   [DatabaseBlockchainCache] push transaction with hash caa7fc7a7dcec79db8a6760146e6935386e9ee3c350fc85cbe244d46d3bbfb47
+2020-Jun-30 10:52:43.660479 DEBUG   [DatabaseBlockchainCache] push transaction with hash caa7fc7a7dcec79db8a6760146e6935386e9ee3c350fc85cbe244d46d3bbfb47 finished
+2020-Jun-30 10:52:43.660544 DEBUG   [DatabaseBlockchainCache] push transaction with hash 296b4907f32022de0063995ac354019940a77857b935949b6559946fbfc16e70
+2020-Jun-30 10:52:43.660727 TRACE   [DatabaseBlockchainCache] updateKeyOutputCount: failed to found key for amount, request database
+2020-Jun-30 10:52:43.660824 TRACE   [DatabaseBlockchainCache] updateKeyOutputCount: database replied: amount 3000 value 0
+2020-Jun-30 10:52:43.661091 DEBUG   [DatabaseBlockchainCache] push transaction with hash 296b4907f32022de0063995ac354019940a77857b935949b6559946fbfc16e70 finished
+2020-Jun-30 10:52:43.661513 DEBUG   [DatabaseBlockchainCache] push block e170eb722efb771dc893a9381c0208495a6be047cf2111c7a052ffbeb9583204 completed
+2020-Jun-30 10:52:43.661592 DEBUG   [Core] Block 272 (e170eb722efb771dc893a9381c0208495a6be047cf2111c7a052ffbeb9583204) added to main chain.
+2020-Jun-30 10:52:43.661635 DEBUG   [Core] Block: 272 (e170eb722efb771dc893a9381c0208495a6be047cf2111c7a052ffbeb9583204) successfully added
+2020-Jun-30 10:52:43.661714 DEBUG   [protocol] Local blockchain updated, new index = 272
+2020-Jun-30 10:52:43.661846 INFO    [node_server] Stopping NodeServer and its 2 connections...
+2020-Jun-30 10:52:43.661927 DEBUG   [node_server] acceptLoop() is interrupted
+2020-Jun-30 10:52:43.661963 DEBUG   [node_server] acceptLoop finished
+2020-Jun-30 10:52:43.662017 DEBUG   [node_server] onIdle() is interrupted
+2020-Jun-30 10:52:43.662052 DEBUG   [node_server] onIdle finished
+2020-Jun-30 10:52:43.662091 DEBUG   [node_server] timedSyncLoop() is interrupted
+2020-Jun-30 10:52:43.662124 DEBUG   [node_server] timedSyncLoop finished
+2020-Jun-30 10:52:43.662162 DEBUG   [node_server] timeoutLoop() is interrupted
+2020-Jun-30 10:52:43.662242 DEBUG   [node_server] [192.187.106.179:36135 INC] connectionHandler() inner context is interrupted
+2020-Jun-30 10:52:43.662310 DEBUG   [node_server] [192.187.106.179:36135 INC] Interrupt connection
+2020-Jun-30 10:52:43.662362 DEBUG   [node_server] [167.86.94.121:46533 INC] connectionHandler() inner context is interrupted
+2020-Jun-30 10:52:43.662401 DEBUG   [node_server] [167.86.94.121:46533 INC] Interrupt connection
+2020-Jun-30 10:52:43.662443 DEBUG   [node_server] [192.187.106.179:36135 INC] writeHandler finished
+2020-Jun-30 10:52:43.662481 DEBUG   [node_server] [167.86.94.121:46533 INC] writeHandler finished
+2020-Jun-30 10:52:43.662516 TRACE   [node_server] [192.187.106.179:36135 INC] CLOSE CONNECTION
+2020-Jun-30 10:52:43.662549 TRACE   [protocol] Observed height updated: 11659
+2020-Jun-30 10:52:43.662617 TRACE   [node_server] [167.86.94.121:46533 INC] CLOSE CONNECTION
+2020-Jun-30 10:52:43.662661 TRACE   [protocol] Observed height updated: 273
+2020-Jun-30 10:52:43.662884 INFO    [node_server] NodeServer loop stopped
+2020-Jun-30 10:52:43.662927 INFO    [daemon] p2p net loop stopped
+2020-Jun-30 10:52:43.662967 INFO    [daemon] Stopping core rpc server...
+2020-Jun-30 10:52:43.663067 INFO    [daemon] Deinitializing p2p...
+2020-Jun-30 10:52:43.663449 DEBUG   [Core] transactionPoolCleaningProcedure has been interrupted
+2020-Jun-30 10:52:43.663600 INFO    [RocksDBWrapper] Closing DB.
+2020-Jun-30 10:52:43.686631 INFO    [daemon] Node stopped.
+2020-Jul-02 12:37:37.791863 INFO    [daemon] 
+
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+ Deccash v1.2.2.0002 ()
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2020, The Deccash Project
+
+ Copyright (c) 2019, The Deccash Project, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/deccash/dec/
+
+
+2020-Jul-02 12:37:37.798017 INFO    [daemon] Program Working Directory: ./decd
+2020-Jul-02 12:37:37.799107 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2020-Jul-02 12:37:37.799232 INFO    [daemon] Loaded 0 default checkpoints
+2020-Jul-02 12:37:37.799321 INFO    [RocksDBWrapper] Opening DB in /home/deccash/.Deccash/DB
+2020-Jul-02 12:37:46.694319 INFO    [RocksDBWrapper] DB opened in /home/deccash/.Deccash/DB
+2020-Jul-02 12:37:46.862731 INFO    [daemon] Initializing core...
+2020-Jul-02 12:37:46.918395 INFO    [Core] DB has more blocks than blockchain storage, cutting from block index: 12379
+2020-Jul-02 12:37:46.918509 INFO    [Core] Cutting root segment from index 12379
+2020-Jul-02 12:37:46.922708 INFO    [daemon] Core initialized OK
+2020-Jul-02 12:37:46.922847 INFO    [daemon] Initializing p2p server...
+2020-Jul-02 12:37:46.923078 INFO    [node_server] Binding on 0.0.0.0:28288
+2020-Jul-02 12:37:46.923192 INFO    [node_server] Net service binded on 0.0.0.0:28288
+2020-Jul-02 12:37:46.923272 INFO    [node_server] Attempting to add IGD port mapping.
+2020-Jul-02 12:37:50.932415 INFO    [node_server] No IGD was found.
+2020-Jul-02 12:37:50.932561 INFO    [daemon] P2p server initialized OK
+2020-Jul-02 12:37:50.932770 INFO    [daemon] Starting core rpc server on address 127.0.0.1:28287
+2020-Jul-02 12:37:50.932879 INFO    [daemon] Core rpc server started ok
+2020-Jul-02 12:37:50.932927 INFO    [daemon] Starting p2p net loop...
+2020-Jul-02 12:37:50.932958 INFO    [node_server] Starting node_server
+2020-Jul-02 12:37:50.933743 INFO    [protocol] [192.187.106.179:39339 INC] Your Deccash node is syncing with the network (99.99% complete) You are 1 blocks (0 days) behind the current peer you're connected to. Be Deccash and enjoy! 
+2020-Jul-02 12:37:50.933820 INFO    [protocol] New Top Block Detected: 12380
+2020-Jul-02 12:37:50.941146 INFO    [protocol] [167.86.94.121:28288 OUT] Your Deccash node is syncing with the network (99.99% complete) You are 1 blocks (0 days) behind the current peer you're connected to. Be Deccash and enjoy! 
+2020-Jul-02 12:37:50.963109 INFO    [protocol] [167.86.94.121:28288 OUT] Successfully synchronized with the Deccash Network.
+2020-Jul-02 12:37:50.963209 INFO    [protocol] 
+2020-Jul-02 12:37:50.963250 INFO    [protocol] ===[ Deccash Tip! ]=============================
+2020-Jul-02 12:37:50.963284 INFO    [protocol]  Always exit decd and decwallet with the "exit" command to preserve your chain and wallet data.
+2020-Jul-02 12:37:50.963323 INFO    [protocol]  Use the "help" command to see a list of available commands.
+2020-Jul-02 12:37:50.963358 INFO    [protocol]  Use the "backup" command in decwallet to display your keys/seed for restoring a corrupted wallet.
+2020-Jul-02 12:37:50.963396 INFO    [protocol]  If you need more assistance, you can contact us for support at http://discord.gg/XQcJfW
+2020-Jul-02 12:37:50.963433 INFO    [protocol] ===================================================
+2020-Jul-02 12:37:50.963433 INFO    [protocol] 
+2020-Jul-02 12:37:50.963540 INFO    [protocol] 
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+2020-Jul-02 12:37:51.441660 INFO    [protocol] [192.187.106.179:39339 INC] Successfully synchronized with the Deccash Network.
+2020-Jul-02 12:38:24.522580 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2020-Jul-02 12:38:24.522664 INFO    [node_server] Stopping NodeServer and its 2 connections...
+2020-Jul-02 12:38:24.523004 DEBUG   [node_server] acceptLoop() is interrupted
+2020-Jul-02 12:38:24.523090 DEBUG   [node_server] acceptLoop finished
+2020-Jul-02 12:38:24.523139 DEBUG   [node_server] onIdle() is interrupted
+2020-Jul-02 12:38:24.523179 DEBUG   [node_server] onIdle finished
+2020-Jul-02 12:38:24.523236 DEBUG   [node_server] timedSyncLoop() is interrupted
+2020-Jul-02 12:38:24.523274 DEBUG   [node_server] timedSyncLoop finished
+2020-Jul-02 12:38:24.523336 DEBUG   [node_server] timeoutLoop() is interrupted
+2020-Jul-02 12:38:24.523447 DEBUG   [node_server] [192.187.106.179:39339 INC] connectionHandler() inner context is interrupted
+2020-Jul-02 12:38:24.523557 DEBUG   [node_server] [192.187.106.179:39339 INC] Interrupt connection
+2020-Jul-02 12:38:24.523616 DEBUG   [node_server] [167.86.94.121:28288 OUT] connectionHandler() inner context is interrupted
+2020-Jul-02 12:38:24.523659 DEBUG   [node_server] [167.86.94.121:28288 OUT] Interrupt connection
+2020-Jul-02 12:38:24.523713 DEBUG   [node_server] [192.187.106.179:39339 INC] writeHandler finished
+2020-Jul-02 12:38:24.523786 DEBUG   [node_server] [167.86.94.121:28288 OUT] writeHandler finished
+2020-Jul-02 12:38:24.523827 TRACE   [node_server] [192.187.106.179:39339 INC] CLOSE CONNECTION
+2020-Jul-02 12:38:24.523869 TRACE   [protocol] Observed height updated: 12379
+2020-Jul-02 12:38:24.523940 TRACE   [node_server] [167.86.94.121:28288 OUT] CLOSE CONNECTION
+2020-Jul-02 12:38:24.524008 INFO    [node_server] NodeServer loop stopped
+2020-Jul-02 12:38:24.524078 INFO    [daemon] p2p net loop stopped
+2020-Jul-02 12:38:24.524136 INFO    [daemon] Stopping core rpc server...
+2020-Jul-02 12:38:24.524215 INFO    [daemon] Deinitializing p2p...
+2020-Jul-02 12:38:24.527280 DEBUG   [Core] transactionPoolCleaningProcedure has been interrupted
+2020-Jul-02 12:38:24.527508 INFO    [RocksDBWrapper] Closing DB.
+2020-Jul-02 12:38:24.531849 INFO    [daemon] Node stopped.
+2020-Jul-02 12:38:52.579545 INFO    [daemon] 
+
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+ Deccash v1.2.2.0002 ()
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2020, The Deccash Project
+
+ Copyright (c) 2019, The Deccash Project, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/deccash/dec/
+
+
+2020-Jul-02 12:38:52.579883 INFO    [daemon] Program Working Directory: ./decd
+2020-Jul-02 12:38:52.580057 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2020-Jul-02 12:38:52.580115 INFO    [daemon] Loaded 0 default checkpoints
+2020-Jul-02 12:38:52.580198 INFO    [RocksDBWrapper] Opening DB in /home/deccash/.Deccash/DB
+2020-Jul-02 12:38:52.587054 INFO    [RocksDBWrapper] DB opened in /home/deccash/.Deccash/DB
+2020-Jul-02 12:38:52.587375 INFO    [daemon] Initializing core...
+2020-Jul-02 12:38:52.592089 INFO    [daemon] Core initialized OK
+2020-Jul-02 12:38:52.592197 INFO    [daemon] Initializing p2p server...
+2020-Jul-02 12:38:52.592370 INFO    [node_server] Binding on 0.0.0.0:28287
+2020-Jul-02 12:38:52.592471 INFO    [node_server] Net service binded on 0.0.0.0:28287
+2020-Jul-02 12:38:52.592520 INFO    [node_server] Attempting to add IGD port mapping.
+2020-Jul-02 12:38:56.597156 INFO    [node_server] No IGD was found.
+2020-Jul-02 12:38:56.597300 INFO    [daemon] P2p server initialized OK
+2020-Jul-02 12:38:56.597498 INFO    [daemon] Starting core rpc server on address 127.0.0.1:28287
+2020-Jul-02 12:38:56.697990 INFO    [RocksDBWrapper] Closing DB.
+2020-Jul-02 12:38:56.709592 ERROR   [daemon] Exception: TcpListener::TcpListener, bind failed, result=98, Address already in use
+2020-Jul-02 12:39:58.742044 INFO    [daemon] 
+
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+ Deccash v1.2.2.0002 ()
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2020, The Deccash Project
+
+ Copyright (c) 2019, The Deccash Project, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/deccash/dec/
+
+
+2020-Jul-02 12:39:58.742416 INFO    [daemon] Program Working Directory: ./decd
+2020-Jul-02 12:39:58.742577 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2020-Jul-02 12:39:58.742656 INFO    [daemon] Loaded 0 default checkpoints
+2020-Jul-02 12:39:58.742802 INFO    [RocksDBWrapper] Opening DB in /home/deccash/.Deccash/DB
+2020-Jul-02 12:39:58.749977 INFO    [RocksDBWrapper] DB opened in /home/deccash/.Deccash/DB
+2020-Jul-02 12:39:58.750254 INFO    [daemon] Initializing core...
+2020-Jul-02 12:39:58.754830 INFO    [daemon] Core initialized OK
+2020-Jul-02 12:39:58.754943 INFO    [daemon] Initializing p2p server...
+2020-Jul-02 12:39:58.755093 INFO    [node_server] Binding on 0.0.0.0:28287
+2020-Jul-02 12:39:58.755174 INFO    [node_server] Net service binded on 0.0.0.0:28287
+2020-Jul-02 12:39:58.755217 INFO    [node_server] Attempting to add IGD port mapping.
+2020-Jul-02 12:40:02.761850 INFO    [node_server] No IGD was found.
+2020-Jul-02 12:40:02.762016 INFO    [daemon] P2p server initialized OK
+2020-Jul-02 12:40:02.762195 INFO    [daemon] Starting core rpc server on address 127.0.0.1:28287
+2020-Jul-02 12:40:02.862672 INFO    [RocksDBWrapper] Closing DB.
+2020-Jul-02 12:40:02.864711 ERROR   [daemon] Exception: TcpListener::TcpListener, bind failed, result=98, Address already in use
+2020-Jul-02 12:40:13.854810 INFO    [daemon] 
+
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+ Deccash v1.2.2.0002 ()
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2020, The Deccash Project
+
+ Copyright (c) 2019, The Deccash Project, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/deccash/dec/
+
+
+2020-Jul-02 12:40:13.855128 INFO    [daemon] Program Working Directory: ./decd
+2020-Jul-02 12:40:13.855291 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2020-Jul-02 12:40:13.855352 INFO    [daemon] Loaded 0 default checkpoints
+2020-Jul-02 12:40:13.855428 INFO    [RocksDBWrapper] Opening DB in /home/deccash/.Deccash/DB
+2020-Jul-02 12:40:13.863349 INFO    [RocksDBWrapper] DB opened in /home/deccash/.Deccash/DB
+2020-Jul-02 12:40:13.863685 INFO    [daemon] Initializing core...
+2020-Jul-02 12:40:13.868653 INFO    [daemon] Core initialized OK
+2020-Jul-02 12:40:13.868770 INFO    [daemon] Initializing p2p server...
+2020-Jul-02 12:40:13.868940 INFO    [node_server] Binding on 0.0.0.0:28286
+2020-Jul-02 12:40:13.869046 INFO    [node_server] Net service binded on 0.0.0.0:28286
+2020-Jul-02 12:40:13.869127 INFO    [node_server] Attempting to add IGD port mapping.
+2020-Jul-02 12:40:17.873891 INFO    [node_server] No IGD was found.
+2020-Jul-02 12:40:17.874035 INFO    [daemon] P2p server initialized OK
+2020-Jul-02 12:40:17.874242 INFO    [daemon] Starting core rpc server on address 127.0.0.1:28287
+2020-Jul-02 12:40:17.874367 INFO    [daemon] Core rpc server started ok
+2020-Jul-02 12:40:17.874420 INFO    [daemon] Starting p2p net loop...
+2020-Jul-02 12:40:17.874453 INFO    [node_server] Starting node_server
+2020-Jul-02 12:40:18.377345 INFO    [protocol] [192.187.106.179:28288 OUT] Your Deccash node is syncing with the network (99.98% complete) You are 2 blocks (0 days) behind the current peer you're connected to. Be Deccash and enjoy! 
+2020-Jul-02 12:40:18.377522 INFO    [protocol] New Top Block Detected: 12382
+2020-Jul-02 12:40:18.826922 INFO    [protocol] [192.187.106.179:28288 OUT] Successfully synchronized with the Deccash Network.
+2020-Jul-02 12:40:18.827018 INFO    [protocol] 
+2020-Jul-02 12:40:18.827069 INFO    [protocol] ===[ Deccash Tip! ]=============================
+2020-Jul-02 12:40:18.827105 INFO    [protocol]  Always exit decd and decwallet with the "exit" command to preserve your chain and wallet data.
+2020-Jul-02 12:40:18.827153 INFO    [protocol]  Use the "help" command to see a list of available commands.
+2020-Jul-02 12:40:18.827185 INFO    [protocol]  Use the "backup" command in decwallet to display your keys/seed for restoring a corrupted wallet.
+2020-Jul-02 12:40:18.827227 INFO    [protocol]  If you need more assistance, you can contact us for support at http://discord.gg/XQcJfW
+2020-Jul-02 12:40:18.827283 INFO    [protocol] ===================================================
+2020-Jul-02 12:40:18.827283 INFO    [protocol] 
+2020-Jul-02 12:40:18.827365 INFO    [protocol] 
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+2020-Jul-02 12:46:11.185306 INFO    [protocol] New Top Block Detected: 12383
+2020-Jul-02 12:47:43.786232 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2020-Jul-02 12:47:43.786267 INFO    [node_server] Stopping NodeServer and its 2 connections...
+2020-Jul-02 12:47:43.786539 DEBUG   [node_server] acceptLoop() is interrupted
+2020-Jul-02 12:47:43.786587 DEBUG   [node_server] acceptLoop finished
+2020-Jul-02 12:47:43.786628 DEBUG   [node_server] onIdle() is interrupted
+2020-Jul-02 12:47:43.786663 DEBUG   [node_server] onIdle finished
+2020-Jul-02 12:47:43.786701 DEBUG   [node_server] timedSyncLoop() is interrupted
+2020-Jul-02 12:47:43.786784 DEBUG   [node_server] timedSyncLoop finished
+2020-Jul-02 12:47:43.786850 DEBUG   [node_server] timeoutLoop() is interrupted
+2020-Jul-02 12:47:43.786915 DEBUG   [node_server] [192.187.106.179:28288 OUT] connectionHandler() inner context is interrupted
+2020-Jul-02 12:47:43.786960 DEBUG   [node_server] [192.187.106.179:28288 OUT] Interrupt connection
+2020-Jul-02 12:47:43.787006 DEBUG   [node_server] [167.86.94.121:36939 INC] connectionHandler() inner context is interrupted
+2020-Jul-02 12:47:43.787044 DEBUG   [node_server] [167.86.94.121:36939 INC] Interrupt connection
+2020-Jul-02 12:47:43.787083 DEBUG   [node_server] [192.187.106.179:28288 OUT] writeHandler finished
+2020-Jul-02 12:47:43.787119 DEBUG   [node_server] [167.86.94.121:36939 INC] writeHandler finished
+2020-Jul-02 12:47:43.787154 TRACE   [node_server] [192.187.106.179:28288 OUT] CLOSE CONNECTION
+2020-Jul-02 12:47:43.787220 TRACE   [node_server] [167.86.94.121:36939 INC] CLOSE CONNECTION
+2020-Jul-02 12:47:43.787280 INFO    [node_server] NodeServer loop stopped
+2020-Jul-02 12:47:43.787317 INFO    [daemon] p2p net loop stopped
+2020-Jul-02 12:47:43.787349 INFO    [daemon] Stopping core rpc server...
+2020-Jul-02 12:47:43.787427 INFO    [daemon] Deinitializing p2p...
+2020-Jul-02 12:47:43.787701 DEBUG   [Core] transactionPoolCleaningProcedure has been interrupted
+2020-Jul-02 12:47:43.787851 INFO    [RocksDBWrapper] Closing DB.
+2020-Jul-02 12:47:43.792111 INFO    [daemon] Node stopped.
+2020-Jul-02 12:47:50.802264 INFO    [daemon] 
+
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+ Deccash v1.2.2.0002 ()
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2020, The Deccash Project
+
+ Copyright (c) 2019, The Deccash Project, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/deccash/dec/
+
+
+2020-Jul-02 12:47:50.802755 INFO    [daemon] Program Working Directory: ./decd
+2020-Jul-02 12:47:50.802905 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2020-Jul-02 12:47:50.802976 INFO    [daemon] Loaded 0 default checkpoints
+2020-Jul-02 12:47:50.803052 INFO    [RocksDBWrapper] Opening DB in /home/deccash/.Deccash/DB
+2020-Jul-02 12:47:50.812957 INFO    [RocksDBWrapper] DB opened in /home/deccash/.Deccash/DB
+2020-Jul-02 12:47:50.813434 INFO    [daemon] Initializing core...
+2020-Jul-02 12:47:50.822550 INFO    [daemon] Core initialized OK
+2020-Jul-02 12:47:50.822680 INFO    [daemon] Initializing p2p server...
+2020-Jul-02 12:47:50.822828 INFO    [node_server] Binding on 0.0.0.0:28288
+2020-Jul-02 12:47:50.822925 INFO    [node_server] Net service binded on 0.0.0.0:28288
+2020-Jul-02 12:47:50.822987 INFO    [node_server] Attempting to add IGD port mapping.
+2020-Jul-02 12:47:54.827907 INFO    [node_server] No IGD was found.
+2020-Jul-02 12:47:54.828119 INFO    [daemon] P2p server initialized OK
+2020-Jul-02 12:47:54.828456 INFO    [daemon] Starting core rpc server on address 127.0.0.1:28287
+2020-Jul-02 12:47:54.828621 INFO    [daemon] Core rpc server started ok
+2020-Jul-02 12:47:54.828705 INFO    [daemon] Starting p2p net loop...
+2020-Jul-02 12:47:54.828776 INFO    [node_server] Starting node_server
+2020-Jul-02 12:47:55.337243 INFO    [protocol] 
+2020-Jul-02 12:47:55.337397 INFO    [protocol] ===[ Deccash Tip! ]=============================
+2020-Jul-02 12:47:55.337460 INFO    [protocol]  Always exit decd and decwallet with the "exit" command to preserve your chain and wallet data.
+2020-Jul-02 12:47:55.337504 INFO    [protocol]  Use the "help" command to see a list of available commands.
+2020-Jul-02 12:47:55.337540 INFO    [protocol]  Use the "backup" command in decwallet to display your keys/seed for restoring a corrupted wallet.
+2020-Jul-02 12:47:55.337589 INFO    [protocol]  If you need more assistance, you can contact us for support at http://discord.gg/XQcJfW
+2020-Jul-02 12:47:55.337642 INFO    [protocol] ===================================================
+2020-Jul-02 12:47:55.337642 INFO    [protocol] 
+2020-Jul-02 12:47:55.337759 INFO    [protocol] 
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+2020-Jul-02 12:47:55.337937 INFO    [protocol] New Top Block Detected: 12383
+2020-Jul-02 12:50:24.427978 INFO    [protocol] New Top Block Detected: 12384
+2020-Jul-02 12:51:22.460053 INFO    [protocol] New Top Block Detected: 12385
+2020-Jul-02 12:53:06.151266 INFO    [protocol] New Top Block Detected: 12386
+2020-Jul-02 12:54:05.822167 INFO    [node_server] 
+2020-Jul-02 12:54:05.822167 INFO    [node_server] Peerlist white:
+2020-Jul-02 12:54:05.822167 INFO    [node_server] 93773101b38c0a25	192.187.106.179:28288 	last_seen: d0.h00.m00.s11
+2e00df01afda9a62	167.86.94.121:28288 	last_seen: d0.h00.m13.s25
+b3e1764c9ce007e4	144.91.109.232:28288 	last_seen: d0.h06.m23.s31
+84502c280b9b5a06	167.86.83.67:28288 	last_seen: d1.h23.m55.s37
+
+2020-Jul-02 12:54:05.822167 INFO    [node_server] Peerlist gray:
+2020-Jul-02 12:54:05.822167 INFO    [node_server] 84502c280b9b5a06	167.86.83.67:28286 	last_seen: d0.h00.m13.s47
+
+2020-Jul-02 12:56:47.385627 INFO    [protocol] New Top Block Detected: 12387
+2020-Jul-02 12:59:09.698680 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2020-Jul-02 12:59:09.698742 INFO    [node_server] Stopping NodeServer and its 1 connections...
+2020-Jul-02 12:59:09.700105 DEBUG   [node_server] acceptLoop() is interrupted
+2020-Jul-02 12:59:09.700167 DEBUG   [node_server] acceptLoop finished
+2020-Jul-02 12:59:09.700218 DEBUG   [node_server] onIdle() is interrupted
+2020-Jul-02 12:59:09.700253 DEBUG   [node_server] onIdle finished
+2020-Jul-02 12:59:09.700290 DEBUG   [node_server] timedSyncLoop() is interrupted
+2020-Jul-02 12:59:09.700330 DEBUG   [node_server] timedSyncLoop finished
+2020-Jul-02 12:59:09.700383 DEBUG   [node_server] timeoutLoop() is interrupted
+2020-Jul-02 12:59:09.700444 DEBUG   [node_server] [192.187.106.179:28288 OUT] connectionHandler() inner context is interrupted
+2020-Jul-02 12:59:09.700492 DEBUG   [node_server] [192.187.106.179:28288 OUT] Interrupt connection
+2020-Jul-02 12:59:09.700532 DEBUG   [node_server] [192.187.106.179:28288 OUT] writeHandler finished
+2020-Jul-02 12:59:09.700575 TRACE   [node_server] [192.187.106.179:28288 OUT] CLOSE CONNECTION
+2020-Jul-02 12:59:09.700648 INFO    [node_server] NodeServer loop stopped
+2020-Jul-02 12:59:09.700688 INFO    [daemon] p2p net loop stopped
+2020-Jul-02 12:59:09.700721 INFO    [daemon] Stopping core rpc server...
+2020-Jul-02 12:59:09.700772 INFO    [daemon] Deinitializing p2p...
+2020-Jul-02 12:59:09.701743 DEBUG   [Core] transactionPoolCleaningProcedure has been interrupted
+2020-Jul-02 12:59:09.702594 INFO    [RocksDBWrapper] Closing DB.
+2020-Jul-02 12:59:09.707783 INFO    [daemon] Node stopped.
+2020-Jul-17 15:58:39.458208 INFO    [daemon] 
+
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+ Deccash v1.2.2.0002 ()
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2020, The Deccash Project
+
+ Copyright (c) 2019, The Deccash Project, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/deccash/dec/
+
+
+2020-Jul-17 15:58:39.459444 INFO    [daemon] Program Working Directory: ./decd
+2020-Jul-17 15:58:39.459639 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2020-Jul-17 15:58:39.459693 INFO    [daemon] Loaded 0 default checkpoints
+2020-Jul-17 15:58:39.459798 INFO    [RocksDBWrapper] Opening DB in /home/deccash/.Deccash/DB
+2020-Jul-17 15:58:39.497879 INFO    [RocksDBWrapper] DB opened in /home/deccash/.Deccash/DB
+2020-Jul-17 15:58:39.506570 INFO    [daemon] Initializing core...
+2020-Jul-17 15:58:39.525759 INFO    [Core] DB has more blocks than blockchain storage, cutting from block index: 17599
+2020-Jul-17 15:58:39.525924 INFO    [Core] Cutting root segment from index 17599
+2020-Jul-17 15:58:39.541588 INFO    [daemon] Core initialized OK
+2020-Jul-17 15:58:39.541933 INFO    [daemon] Initializing p2p server...
+2020-Jul-17 15:58:39.542300 INFO    [node_server] Binding on 0.0.0.0:28288
+2020-Jul-17 15:58:39.542507 INFO    [node_server] Net service binded on 0.0.0.0:28288
+2020-Jul-17 15:58:39.542594 INFO    [node_server] Attempting to add IGD port mapping.
+2020-Jul-17 15:58:43.547616 INFO    [node_server] No IGD was found.
+2020-Jul-17 15:58:43.547792 INFO    [daemon] P2p server initialized OK
+2020-Jul-17 15:58:43.548227 INFO    [daemon] Starting core rpc server on address 0.0.0.0:28287
+2020-Jul-17 15:58:43.548513 INFO    [daemon] Core rpc server started ok
+2020-Jul-17 15:58:43.548611 INFO    [daemon] Starting p2p net loop...
+2020-Jul-17 15:58:43.548689 INFO    [node_server] Starting node_server
+2020-Jul-17 15:58:43.550492 INFO    [protocol] [192.187.106.179:42887 INC] Your Deccash node is syncing with the network (99.99% complete) You are 1 blocks (0 days) behind the current peer you're connected to. Be Deccash and enjoy! 
+2020-Jul-17 15:58:43.550611 INFO    [protocol] New Top Block Detected: 17600
+2020-Jul-17 15:58:43.568588 INFO    [protocol] [167.86.94.121:28288 OUT] Your Deccash node is syncing with the network (99.99% complete) You are 1 blocks (0 days) behind the current peer you're connected to. Be Deccash and enjoy! 
+2020-Jul-17 15:58:43.599672 INFO    [protocol] [167.86.94.121:28288 OUT] Successfully synchronized with the Deccash Network.
+2020-Jul-17 15:58:43.599788 INFO    [protocol] 
+2020-Jul-17 15:58:43.599840 INFO    [protocol] ===[ Deccash Tip! ]=============================
+2020-Jul-17 15:58:43.599881 INFO    [protocol]  Always exit decd and decwallet with the "exit" command to preserve your chain and wallet data.
+2020-Jul-17 15:58:43.599925 INFO    [protocol]  Use the "help" command to see a list of available commands.
+2020-Jul-17 15:58:43.599964 INFO    [protocol]  Use the "backup" command in decwallet to display your keys/seed for restoring a corrupted wallet.
+2020-Jul-17 15:58:43.600005 INFO    [protocol]  If you need more assistance, you can contact us for support at http://discord.gg/XQcJfW
+2020-Jul-17 15:58:43.600043 INFO    [protocol] ===================================================
+2020-Jul-17 15:58:43.600043 INFO    [protocol] 
+2020-Jul-17 15:58:43.600127 INFO    [protocol] 
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+2020-Jul-17 15:58:44.055874 INFO    [protocol] [192.187.106.179:42887 INC] Successfully synchronized with the Deccash Network.
+2020-Jul-17 16:01:06.243721 INFO    [protocol] New Top Block Detected: 17601
+2020-Jul-17 16:01:06.265352 INFO    [Core] Block 17600 (7761ca86b773efde1021610c03e2e851cf72c93f4accd9ac0dfaff6979975a58) added to main chain
+2020-Jul-17 16:01:25.970278 INFO    [protocol] New Top Block Detected: 17602
+2020-Jul-17 16:08:46.637566 INFO    [protocol] New Top Block Detected: 17603
+2020-Jul-17 16:09:57.949262 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2020-Jul-17 16:09:57.949511 TRACE   [RpcServer] RPC request came: 
+POST /get_pool_changes_lite HTTP/1.1
+Host: 127.0.0.1
+content-length: 99
+content-type: application/json
+host: 127.0.0.1
+
+{"knownTxsIds":[],"tailBlockId":"90e2959d200a0a20446563636173682076312e322e322e303030322028290a20"}
+2020-Jul-17 16:09:57.949895 INFO    [node_server] Stopping NodeServer and its 2 connections...
+2020-Jul-17 16:09:57.950088 DEBUG   [node_server] acceptLoop() is interrupted
+2020-Jul-17 16:09:57.950159 DEBUG   [node_server] acceptLoop finished
+2020-Jul-17 16:09:57.950254 DEBUG   [node_server] onIdle() is interrupted
+2020-Jul-17 16:09:57.950327 DEBUG   [node_server] onIdle finished
+2020-Jul-17 16:09:57.950425 DEBUG   [node_server] timedSyncLoop() is interrupted
+2020-Jul-17 16:09:57.950502 DEBUG   [node_server] timedSyncLoop finished
+2020-Jul-17 16:09:57.950597 DEBUG   [node_server] timeoutLoop() is interrupted
+2020-Jul-17 16:09:57.950719 DEBUG   [node_server] [192.187.106.179:42887 INC] connectionHandler() inner context is interrupted
+2020-Jul-17 16:09:57.950803 DEBUG   [node_server] [192.187.106.179:42887 INC] Interrupt connection
+2020-Jul-17 16:09:57.950905 DEBUG   [node_server] [167.86.94.121:28288 OUT] connectionHandler() inner context is interrupted
+2020-Jul-17 16:09:57.950974 DEBUG   [node_server] [167.86.94.121:28288 OUT] Interrupt connection
+2020-Jul-17 16:09:57.951054 DEBUG   [node_server] [192.187.106.179:42887 INC] writeHandler finished
+2020-Jul-17 16:09:57.951132 DEBUG   [node_server] [167.86.94.121:28288 OUT] writeHandler finished
+2020-Jul-17 16:09:57.951206 TRACE   [node_server] [192.187.106.179:42887 INC] CLOSE CONNECTION
+2020-Jul-17 16:09:57.951316 TRACE   [node_server] [167.86.94.121:28288 OUT] CLOSE CONNECTION
+2020-Jul-17 16:09:57.951415 INFO    [node_server] NodeServer loop stopped
+2020-Jul-17 16:09:57.951500 INFO    [daemon] p2p net loop stopped
+2020-Jul-17 16:09:57.951571 INFO    [daemon] Stopping core rpc server...
+2020-Jul-17 16:09:57.951675 DEBUG   [HttpServer] Closing connection from 127.0.0.1:47205 total=1
+2020-Jul-17 16:09:57.951901 INFO    [daemon] Deinitializing p2p...
+2020-Jul-17 16:09:57.954491 DEBUG   [Core] transactionPoolCleaningProcedure has been interrupted
+2020-Jul-17 16:09:57.954813 INFO    [RocksDBWrapper] Closing DB.
+2020-Jul-17 16:09:57.963784 INFO    [daemon] Node stopped.
+2020-Jul-17 16:10:02.639110 INFO    [daemon] 
+
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+ Deccash v1.2.2.0002 ()
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2020, The Deccash Project
+
+ Copyright (c) 2019, The Deccash Project, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/deccash/dec/
+
+
+2020-Jul-17 16:10:02.639603 INFO    [daemon] Program Working Directory: ./decd
+2020-Jul-17 16:10:02.639826 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2020-Jul-17 16:10:02.639910 INFO    [daemon] Loaded 0 default checkpoints
+2020-Jul-17 16:10:02.640017 INFO    [RocksDBWrapper] Opening DB in /home/deccash/.Deccash/DB
+2020-Jul-17 16:10:02.661740 INFO    [RocksDBWrapper] DB opened in /home/deccash/.Deccash/DB
+2020-Jul-17 16:10:02.665702 INFO    [daemon] Initializing core...
+2020-Jul-17 16:10:02.670677 INFO    [daemon] Core initialized OK
+2020-Jul-17 16:10:02.675713 INFO    [daemon] Initializing p2p server...
+2020-Jul-17 16:10:02.678093 INFO    [node_server] Binding on 0.0.0.0:28288
+2020-Jul-17 16:10:02.678235 INFO    [node_server] Net service binded on 0.0.0.0:28288
+2020-Jul-17 16:10:02.678298 INFO    [node_server] Attempting to add IGD port mapping.
+2020-Jul-17 16:10:06.683231 INFO    [node_server] No IGD was found.
+2020-Jul-17 16:10:06.683410 INFO    [daemon] P2p server initialized OK
+2020-Jul-17 16:10:06.683719 INFO    [daemon] Starting core rpc server on address 0.0.0.0:28287
+2020-Jul-17 16:10:06.683882 INFO    [daemon] Core rpc server started ok
+2020-Jul-17 16:10:06.683964 INFO    [daemon] Starting p2p net loop...
+2020-Jul-17 16:10:06.684021 INFO    [node_server] Starting node_server
+2020-Jul-17 16:10:06.685098 INFO    [protocol] 
+2020-Jul-17 16:10:06.685163 INFO    [protocol] ===[ Deccash Tip! ]=============================
+2020-Jul-17 16:10:06.685228 INFO    [protocol]  Always exit decd and decwallet with the "exit" command to preserve your chain and wallet data.
+2020-Jul-17 16:10:06.685274 INFO    [protocol]  Use the "help" command to see a list of available commands.
+2020-Jul-17 16:10:06.685323 INFO    [protocol]  Use the "backup" command in decwallet to display your keys/seed for restoring a corrupted wallet.
+2020-Jul-17 16:10:06.685366 INFO    [protocol]  If you need more assistance, you can contact us for support at http://discord.gg/XQcJfW
+2020-Jul-17 16:10:06.685435 INFO    [protocol] ===================================================
+2020-Jul-17 16:10:06.685435 INFO    [protocol] 
+2020-Jul-17 16:10:06.685560 INFO    [protocol] 
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+2020-Jul-17 16:10:06.685821 INFO    [protocol] New Top Block Detected: 17603
+2020-Jul-17 16:15:58.136602 INFO    [protocol] New Top Block Detected: 17604
+2020-Jul-17 16:21:06.189521 INFO    [protocol] New Top Block Detected: 17605
+2020-Jul-17 16:25:38.116396 INFO    [protocol] New Top Block Detected: 17606
+2020-Jul-17 16:28:47.868610 INFO    [protocol] New Top Block Detected: 17607
+2020-Jul-17 16:34:07.467018 INFO    [protocol] New Top Block Detected: 17608
+2020-Jul-17 16:36:57.049092 INFO    [protocol] New Top Block Detected: 17609
+2020-Jul-17 16:37:01.082192 INFO    [protocol] New Top Block Detected: 17610
+2020-Jul-17 16:41:10.119201 INFO    [protocol] New Top Block Detected: 17611
+2020-Jul-17 16:53:47.127991 INFO    [protocol] New Top Block Detected: 17612
+2020-Jul-17 17:02:41.628681 INFO    [protocol] New Top Block Detected: 17613
+2020-Jul-17 17:03:51.785937 INFO    [protocol] New Top Block Detected: 17614
+2020-Jul-17 17:04:30.968105 INFO    [protocol] New Top Block Detected: 17615
+2020-Jul-17 17:05:06.092317 INFO    [protocol] New Top Block Detected: 17616
+2020-Jul-17 17:12:01.328271 INFO    [protocol] New Top Block Detected: 17617
+2020-Jul-17 17:12:15.849673 INFO    [protocol] New Top Block Detected: 17618
+2020-Jul-17 17:13:35.597963 INFO    [protocol] New Top Block Detected: 17619
+2020-Jul-17 17:17:30.892363 INFO    [protocol] New Top Block Detected: 17620
+2020-Jul-17 17:30:44.329821 INFO    [protocol] New Top Block Detected: 17621
+2020-Jul-17 17:46:37.882964 INFO    [protocol] New Top Block Detected: 17622
+2020-Jul-17 17:51:55.378364 INFO    [protocol] New Top Block Detected: 17623
+2020-Jul-17 17:55:33.128818 INFO    [protocol] New Top Block Detected: 17624
+2020-Jul-17 17:55:56.994235 INFO    [protocol] New Top Block Detected: 17625
+2020-Jul-17 17:56:13.594399 INFO    [protocol] New Top Block Detected: 17626
+2020-Jul-17 18:00:44.893311 INFO    [protocol] New Top Block Detected: 17627
+2020-Jul-17 18:05:55.404216 INFO    [protocol] New Top Block Detected: 17628
+2020-Jul-17 18:06:02.336901 INFO    [protocol] New Top Block Detected: 17629
+2020-Jul-17 18:08:46.907581 INFO    [protocol] New Top Block Detected: 17630
+2020-Jul-17 18:10:12.782199 INFO    [protocol] New Top Block Detected: 17631
+2020-Jul-17 18:10:52.852866 INFO    [protocol] New Top Block Detected: 17632
+2020-Jul-17 18:19:00.560466 INFO    [protocol] New Top Block Detected: 17633
+2020-Jul-17 18:19:14.790880 INFO    [protocol] New Top Block Detected: 17634
+2020-Jul-17 18:25:29.116883 INFO    [protocol] New Top Block Detected: 17635
+2020-Jul-17 18:28:49.782066 INFO    [protocol] New Top Block Detected: 17636
+2020-Jul-17 18:40:26.751746 INFO    [protocol] New Top Block Detected: 17637
+2020-Jul-17 18:41:04.418627 INFO    [protocol] New Top Block Detected: 17638
+2020-Jul-17 18:41:12.546450 INFO    [protocol] New Top Block Detected: 17639
+2020-Jul-17 18:44:25.868711 INFO    [protocol] New Top Block Detected: 17640
+2020-Jul-17 18:50:35.562788 INFO    [protocol] New Top Block Detected: 17641
+2020-Jul-17 18:55:08.876136 INFO    [protocol] New Top Block Detected: 17642
+2020-Jul-17 18:56:47.961795 INFO    [protocol] New Top Block Detected: 17643
+2020-Jul-17 19:03:41.574851 INFO    [protocol] New Top Block Detected: 17644
+2020-Jul-17 19:09:06.377583 INFO    [protocol] New Top Block Detected: 17645
+2020-Jul-17 19:10:26.203655 INFO    [protocol] New Top Block Detected: 17646
+2020-Jul-17 19:14:35.775455 INFO    [protocol] New Top Block Detected: 17647
+2020-Jul-17 19:24:36.946196 INFO    [protocol] New Top Block Detected: 17648
+2020-Jul-17 19:37:08.648274 INFO    [protocol] New Top Block Detected: 17649
+2020-Jul-17 19:45:16.649171 INFO    [protocol] New Top Block Detected: 17650
+2020-Jul-17 19:51:07.964968 INFO    [protocol] New Top Block Detected: 17651
+2020-Jul-17 19:53:12.842953 INFO    [protocol] New Top Block Detected: 17652
+2020-Jul-17 20:06:40.753745 INFO    [protocol] New Top Block Detected: 17653
+2020-Jul-17 20:09:52.616282 INFO    [protocol] New Top Block Detected: 17654
+2020-Jul-17 20:12:02.946875 INFO    [protocol] New Top Block Detected: 17655
+2020-Jul-17 20:15:20.398766 INFO    [protocol] New Top Block Detected: 17656
+2020-Jul-17 20:16:16.229910 INFO    [protocol] New Top Block Detected: 17657
+2020-Jul-17 20:18:04.908922 INFO    [protocol] New Top Block Detected: 17658
+2020-Jul-17 20:18:50.645239 INFO    [protocol] New Top Block Detected: 17659
+2020-Jul-17 20:28:32.413744 INFO    [protocol] New Top Block Detected: 17660
+2020-Jul-17 20:33:13.376099 INFO    [protocol] New Top Block Detected: 17661
+2020-Jul-17 20:35:37.506779 INFO    [protocol] New Top Block Detected: 17662
+2020-Jul-17 20:38:41.026380 INFO    [protocol] New Top Block Detected: 17663
+2020-Jul-17 20:38:58.050874 INFO    [protocol] New Top Block Detected: 17664
+2020-Jul-17 20:40:28.660484 INFO    [protocol] New Top Block Detected: 17665
+2020-Jul-17 20:43:40.417428 INFO    [protocol] New Top Block Detected: 17666
+2020-Jul-17 20:46:25.889706 INFO    [protocol] New Top Block Detected: 17667
+2020-Jul-17 20:51:23.665834 INFO    [protocol] New Top Block Detected: 17668
+2020-Jul-17 20:54:24.545403 INFO    [protocol] New Top Block Detected: 17669
+2020-Jul-17 21:01:17.904936 INFO    [protocol] New Top Block Detected: 17670
+2020-Jul-17 21:01:39.068001 INFO    [protocol] New Top Block Detected: 17671
+2020-Jul-17 21:01:56.011654 INFO    [protocol] New Top Block Detected: 17672
+2020-Jul-17 21:02:01.125209 INFO    [protocol] New Top Block Detected: 17673
+2020-Jul-17 21:02:36.301619 INFO    [protocol] New Top Block Detected: 17674
+2020-Jul-17 21:05:21.887906 INFO    [protocol] New Top Block Detected: 17675
+2020-Jul-17 21:11:08.454460 INFO    [protocol] New Top Block Detected: 17676
+2020-Jul-17 21:12:59.359727 INFO    [protocol] New Top Block Detected: 17677
+2020-Jul-17 21:15:46.101201 INFO    [protocol] New Top Block Detected: 17678
+2020-Jul-17 21:17:35.367947 INFO    [protocol] New Top Block Detected: 17679
+2020-Jul-17 21:24:58.059894 INFO    [protocol] New Top Block Detected: 17680
+2020-Jul-17 21:44:15.458837 INFO    [protocol] New Top Block Detected: 17681
+2020-Jul-17 21:50:21.022298 INFO    [protocol] New Top Block Detected: 17682
+2020-Jul-17 21:57:33.946630 INFO    [protocol] New Top Block Detected: 17683
+2020-Jul-17 21:59:29.164021 INFO    [protocol] New Top Block Detected: 17684
+2020-Jul-17 22:11:13.197050 INFO    [protocol] New Top Block Detected: 17685
+2020-Jul-17 22:16:13.395095 INFO    [protocol] New Top Block Detected: 17686
+2020-Jul-17 22:17:05.513140 INFO    [protocol] New Top Block Detected: 17687
+2020-Jul-17 22:18:02.328941 INFO    [protocol] New Top Block Detected: 17688
+2020-Jul-17 22:21:06.154337 INFO    [protocol] New Top Block Detected: 17689
+2020-Jul-17 22:21:33.822697 INFO    [protocol] New Top Block Detected: 17690
+2020-Jul-17 22:29:04.097937 INFO    [protocol] New Top Block Detected: 17691
+2020-Jul-17 22:36:51.351279 INFO    [protocol] New Top Block Detected: 17692
+2020-Jul-17 22:41:24.428604 INFO    [protocol] New Top Block Detected: 17693
+2020-Jul-17 22:42:18.133659 INFO    [protocol] New Top Block Detected: 17694
+2020-Jul-17 22:44:35.725322 INFO    [protocol] New Top Block Detected: 17695
+2020-Jul-17 22:49:31.148231 INFO    [protocol] New Top Block Detected: 17696
+2020-Jul-17 22:50:25.273540 INFO    [protocol] New Top Block Detected: 17697
+2020-Jul-17 22:56:02.323588 INFO    [protocol] New Top Block Detected: 17698
+2020-Jul-17 22:58:41.403725 INFO    [protocol] New Top Block Detected: 17699
+2020-Jul-17 23:04:25.047412 INFO    [protocol] New Top Block Detected: 17700
+2020-Jul-17 23:08:46.007705 INFO    [protocol] New Top Block Detected: 17701
+2020-Jul-17 23:08:46.032579 INFO    [Core] Block 17700 (6cd013106f989fdfe863407d63754b09fa2db0bedc38d997ae723a7e7b262658) added to main chain
+2020-Jul-17 23:12:09.529756 INFO    [protocol] New Top Block Detected: 17702
+2020-Jul-17 23:14:00.290905 INFO    [protocol] New Top Block Detected: 17703
+2020-Jul-17 23:16:08.247862 INFO    [protocol] New Top Block Detected: 17704
+2020-Jul-17 23:17:10.503002 INFO    [protocol] New Top Block Detected: 17705
+2020-Jul-17 23:20:26.718143 INFO    [protocol] New Top Block Detected: 17706
+2020-Jul-17 23:27:27.076497 INFO    [protocol] New Top Block Detected: 17707
+2020-Jul-17 23:32:11.116443 INFO    [protocol] New Top Block Detected: 17708
+2020-Jul-17 23:40:00.196745 INFO    [protocol] New Top Block Detected: 17709
+2020-Jul-17 23:47:10.209300 INFO    [protocol] New Top Block Detected: 17710
+2020-Jul-17 23:56:16.748929 INFO    [protocol] New Top Block Detected: 17711
+2020-Jul-17 23:58:13.524914 INFO    [protocol] New Top Block Detected: 17712
+2020-Jul-18 00:01:52.314034 INFO    [protocol] New Top Block Detected: 17713
+2020-Jul-18 00:09:28.715841 INFO    [protocol] New Top Block Detected: 17714
+2020-Jul-18 00:09:46.507996 INFO    [protocol] New Top Block Detected: 17715
+2020-Jul-18 00:14:23.439683 INFO    [protocol] New Top Block Detected: 17716
+2020-Jul-18 00:20:07.931485 INFO    [protocol] New Top Block Detected: 17717
+2020-Jul-18 00:20:36.822613 INFO    [protocol] New Top Block Detected: 17718
+2020-Jul-18 00:25:32.037480 INFO    [protocol] New Top Block Detected: 17719
+2020-Jul-18 00:28:15.107821 INFO    [protocol] New Top Block Detected: 17720
+2020-Jul-18 00:34:57.403601 INFO    [protocol] New Top Block Detected: 17721
+2020-Jul-18 00:36:03.604907 INFO    [protocol] New Top Block Detected: 17722
+2020-Jul-18 00:36:06.223108 INFO    [protocol] New Top Block Detected: 17723
+2020-Jul-18 00:37:51.034418 INFO    [protocol] New Top Block Detected: 17724
+2020-Jul-18 00:44:17.750332 INFO    [protocol] New Top Block Detected: 17725
+2020-Jul-18 00:49:39.838507 INFO    [protocol] New Top Block Detected: 17726
+2020-Jul-18 00:53:17.853534 INFO    [protocol] New Top Block Detected: 17727
+2020-Jul-18 00:56:20.586306 INFO    [protocol] New Top Block Detected: 17728
+2020-Jul-18 01:14:29.588750 INFO    [protocol] New Top Block Detected: 17729
+2020-Jul-18 01:19:34.462266 INFO    [protocol] New Top Block Detected: 17730
+2020-Jul-18 01:20:07.264894 INFO    [protocol] New Top Block Detected: 17731
+2020-Jul-18 01:26:02.086803 INFO    [protocol] New Top Block Detected: 17732
+2020-Jul-18 01:30:01.828488 INFO    [protocol] New Top Block Detected: 17733
+2020-Jul-18 01:38:36.898988 INFO    [protocol] New Top Block Detected: 17734
+2020-Jul-18 01:39:53.704432 INFO    [protocol] New Top Block Detected: 17735
+2020-Jul-18 01:41:32.482035 INFO    [protocol] New Top Block Detected: 17736
+2020-Jul-18 01:46:59.861463 INFO    [protocol] New Top Block Detected: 17737
+2020-Jul-18 01:49:55.795440 INFO    [protocol] New Top Block Detected: 17738
+2020-Jul-18 01:58:10.658678 INFO    [protocol] New Top Block Detected: 17739
+2020-Jul-18 02:03:52.817141 INFO    [protocol] New Top Block Detected: 17740
+2020-Jul-18 02:05:23.319965 INFO    [protocol] New Top Block Detected: 17741
+2020-Jul-18 02:05:43.515494 INFO    [protocol] New Top Block Detected: 17742
+2020-Jul-18 02:06:25.123421 INFO    [protocol] New Top Block Detected: 17743
+2020-Jul-18 02:10:49.946496 INFO    [protocol] New Top Block Detected: 17744
+2020-Jul-18 02:17:20.849540 INFO    [protocol] New Top Block Detected: 17745
+2020-Jul-18 02:19:27.034398 INFO    [protocol] New Top Block Detected: 17746
+2020-Jul-18 02:20:18.377967 INFO    [protocol] New Top Block Detected: 17747
+2020-Jul-18 02:25:35.303812 INFO    [protocol] New Top Block Detected: 17748
+2020-Jul-18 02:29:57.680998 INFO    [protocol] New Top Block Detected: 17749
+2020-Jul-18 02:30:28.468867 INFO    [protocol] New Top Block Detected: 17750
+2020-Jul-18 02:31:52.364575 INFO    [protocol] New Top Block Detected: 17751
+2020-Jul-18 02:41:15.923684 INFO    [protocol] New Top Block Detected: 17752
+2020-Jul-18 02:43:04.135668 INFO    [protocol] New Top Block Detected: 17753
+2020-Jul-18 02:54:27.384768 INFO    [protocol] New Top Block Detected: 17754
+2020-Jul-18 02:55:12.138032 INFO    [protocol] New Top Block Detected: 17755
+2020-Jul-18 03:01:21.192691 INFO    [protocol] New Top Block Detected: 17756
+2020-Jul-18 03:04:10.509142 INFO    [protocol] New Top Block Detected: 17757
+2020-Jul-18 03:04:39.770655 INFO    [protocol] New Top Block Detected: 17758
+2020-Jul-18 03:14:19.697137 INFO    [protocol] New Top Block Detected: 17759
+2020-Jul-18 03:14:40.799536 INFO    [protocol] New Top Block Detected: 17760
+2020-Jul-18 03:16:05.449040 INFO    [protocol] New Top Block Detected: 17761
+2020-Jul-18 03:16:54.893670 INFO    [protocol] New Top Block Detected: 17762
+2020-Jul-18 03:23:48.805340 INFO    [protocol] New Top Block Detected: 17763
+2020-Jul-18 03:30:26.539445 INFO    [protocol] New Top Block Detected: 17764
+2020-Jul-18 03:31:08.592239 INFO    [protocol] New Top Block Detected: 17765
+2020-Jul-18 03:33:12.605133 INFO    [protocol] New Top Block Detected: 17766
+2020-Jul-18 03:36:04.248661 INFO    [protocol] New Top Block Detected: 17767
+2020-Jul-18 03:50:59.655119 INFO    [protocol] New Top Block Detected: 17768
+2020-Jul-18 03:52:23.470927 INFO    [protocol] New Top Block Detected: 17769
+2020-Jul-18 04:01:21.469525 INFO    [protocol] New Top Block Detected: 17770
+2020-Jul-18 04:03:06.247624 INFO    [protocol] New Top Block Detected: 17771
+2020-Jul-18 04:04:07.093142 INFO    [protocol] New Top Block Detected: 17772
+2020-Jul-18 04:04:56.171833 INFO    [protocol] New Top Block Detected: 17773
+2020-Jul-18 04:10:03.897472 INFO    [protocol] New Top Block Detected: 17774
+2020-Jul-18 04:10:39.101972 INFO    [protocol] New Top Block Detected: 17775
+2020-Jul-18 04:10:41.668253 INFO    [protocol] New Top Block Detected: 17776
+2020-Jul-18 04:14:22.646960 INFO    [protocol] New Top Block Detected: 17777
+2020-Jul-18 04:24:11.715747 INFO    [protocol] New Top Block Detected: 17778
+2020-Jul-18 04:24:36.745110 INFO    [protocol] New Top Block Detected: 17779
+2020-Jul-18 04:26:20.652945 INFO    [protocol] New Top Block Detected: 17780
+2020-Jul-18 04:29:16.792892 INFO    [protocol] New Top Block Detected: 17781
+2020-Jul-18 04:33:20.769150 INFO    [protocol] New Top Block Detected: 17782
+2020-Jul-18 04:39:37.391811 INFO    [protocol] New Top Block Detected: 17783
+2020-Jul-18 04:39:52.837954 INFO    [protocol] New Top Block Detected: 17784
+2020-Jul-18 04:49:07.951297 INFO    [protocol] New Top Block Detected: 17785
+2020-Jul-18 04:49:52.187961 INFO    [protocol] New Top Block Detected: 17786
+2020-Jul-18 04:53:54.771427 INFO    [protocol] New Top Block Detected: 17787
+2020-Jul-18 05:02:39.935491 INFO    [protocol] New Top Block Detected: 17788
+2020-Jul-18 05:03:29.964468 INFO    [protocol] New Top Block Detected: 17789
+2020-Jul-18 05:03:32.740910 INFO    [protocol] New Top Block Detected: 17790
+2020-Jul-18 05:05:54.916856 INFO    [protocol] New Top Block Detected: 17791
+2020-Jul-18 05:16:23.373133 INFO    [protocol] New Top Block Detected: 17792
+2020-Jul-18 05:34:45.042936 INFO    [protocol] New Top Block Detected: 17793
+2020-Jul-18 05:36:30.197062 INFO    [protocol] New Top Block Detected: 17794
+2020-Jul-18 05:37:44.679651 INFO    [protocol] New Top Block Detected: 17795
+2020-Jul-18 05:39:00.828505 INFO    [protocol] New Top Block Detected: 17796
+2020-Jul-18 05:41:12.794485 INFO    [protocol] New Top Block Detected: 17797
+2020-Jul-18 05:41:56.497481 INFO    [protocol] New Top Block Detected: 17798
+2020-Jul-18 05:49:00.321844 INFO    [protocol] New Top Block Detected: 17799
+2020-Jul-18 05:55:22.557575 INFO    [protocol] New Top Block Detected: 17800
+2020-Jul-18 05:59:43.405642 INFO    [protocol] New Top Block Detected: 17801
+2020-Jul-18 05:59:43.426963 INFO    [Core] Block 17800 (3e60209a74627e2da450eb65e9fa2be4b31743ce60f36afa98c1fd1e32cf1ecd) added to main chain
+2020-Jul-18 06:00:05.526163 INFO    [protocol] New Top Block Detected: 17802
+2020-Jul-18 06:06:07.086534 INFO    [protocol] New Top Block Detected: 17803
+2020-Jul-18 06:07:58.206075 INFO    [protocol] New Top Block Detected: 17804
+2020-Jul-18 06:13:54.138568 INFO    [protocol] New Top Block Detected: 17805
+2020-Jul-18 06:16:09.574132 INFO    [protocol] New Top Block Detected: 17806
+2020-Jul-18 06:22:02.417834 INFO    [protocol] New Top Block Detected: 17807
+2020-Jul-18 06:29:10.122987 INFO    [protocol] New Top Block Detected: 17808
+2020-Jul-18 06:32:14.335953 INFO    [protocol] New Top Block Detected: 17809
+2020-Jul-18 06:32:41.424268 INFO    [protocol] New Top Block Detected: 17810
+2020-Jul-18 06:40:44.279622 INFO    [protocol] New Top Block Detected: 17811
+2020-Jul-18 06:41:47.739982 INFO    [protocol] New Top Block Detected: 17812
+2020-Jul-18 06:42:32.680504 INFO    [protocol] New Top Block Detected: 17813
+2020-Jul-18 06:50:55.869195 INFO    [protocol] New Top Block Detected: 17814
+2020-Jul-18 06:53:28.572096 INFO    [protocol] New Top Block Detected: 17815
+2020-Jul-18 06:53:57.521165 INFO    [protocol] New Top Block Detected: 17816
+2020-Jul-18 07:01:54.229523 INFO    [protocol] New Top Block Detected: 17817
+2020-Jul-18 07:03:05.219113 INFO    [protocol] New Top Block Detected: 17818
+2020-Jul-18 07:07:58.742389 INFO    [protocol] New Top Block Detected: 17819
+2020-Jul-18 07:14:29.448213 INFO    [protocol] New Top Block Detected: 17820
+2020-Jul-18 07:19:41.850443 INFO    [protocol] New Top Block Detected: 17821
+2020-Jul-18 07:24:56.158386 INFO    [protocol] New Top Block Detected: 17822
+2020-Jul-18 07:25:35.331769 INFO    [protocol] New Top Block Detected: 17823
+2020-Jul-18 07:27:04.626623 INFO    [protocol] New Top Block Detected: 17824
+2020-Jul-18 07:29:08.310409 INFO    [protocol] New Top Block Detected: 17825
+2020-Jul-18 07:30:31.850255 INFO    [protocol] New Top Block Detected: 17826
+2020-Jul-18 07:35:34.443562 INFO    [protocol] New Top Block Detected: 17827
+2020-Jul-18 07:37:38.833135 INFO    [protocol] New Top Block Detected: 17828
+2020-Jul-18 07:45:03.421915 INFO    [protocol] New Top Block Detected: 17829
+2020-Jul-18 07:51:46.358145 INFO    [protocol] New Top Block Detected: 17830
+2020-Jul-18 07:52:31.823508 INFO    [protocol] New Top Block Detected: 17831
+2020-Jul-18 07:55:15.492892 INFO    [protocol] New Top Block Detected: 17832
+2020-Jul-18 07:59:14.281901 INFO    [protocol] New Top Block Detected: 17833
+2020-Jul-18 08:01:32.237988 INFO    [protocol] New Top Block Detected: 17834
+2020-Jul-18 08:03:44.323694 INFO    [protocol] New Top Block Detected: 17835
+2020-Jul-18 08:04:24.985144 INFO    [protocol] New Top Block Detected: 17836
+2020-Jul-18 08:05:20.889210 INFO    [protocol] New Top Block Detected: 17837
+2020-Jul-18 08:08:15.432340 INFO    [protocol] New Top Block Detected: 17838
+2020-Jul-18 08:09:44.783310 INFO    [protocol] New Top Block Detected: 17839
+2020-Jul-18 08:14:41.712037 INFO    [protocol] New Top Block Detected: 17840
+2020-Jul-18 08:24:17.074361 INFO    [protocol] New Top Block Detected: 17841
+2020-Jul-18 08:24:53.886637 INFO    [protocol] New Top Block Detected: 17842
+2020-Jul-18 08:29:41.820200 INFO    [protocol] New Top Block Detected: 17843
+2020-Jul-18 08:52:52.939158 INFO    [protocol] New Top Block Detected: 17844
+2020-Jul-18 09:02:54.707785 INFO    [protocol] New Top Block Detected: 17845
+2020-Jul-18 09:08:56.559168 INFO    [protocol] New Top Block Detected: 17846
+2020-Jul-18 09:17:27.650081 INFO    [protocol] New Top Block Detected: 17847
+2020-Jul-18 09:20:03.702062 INFO    [protocol] New Top Block Detected: 17848
+2020-Jul-18 09:22:11.774451 INFO    [protocol] New Top Block Detected: 17849
+2020-Jul-18 09:24:50.055044 INFO    [protocol] New Top Block Detected: 17850
+2020-Jul-18 09:30:02.420849 INFO    [protocol] New Top Block Detected: 17851
+2020-Jul-18 09:38:48.421048 INFO    [protocol] New Top Block Detected: 17852
+2020-Jul-18 09:43:39.582159 INFO    [protocol] New Top Block Detected: 17853
+2020-Jul-18 09:49:50.625430 INFO    [protocol] New Top Block Detected: 17854
+2020-Jul-18 09:55:08.395707 INFO    [protocol] New Top Block Detected: 17855
+2020-Jul-18 09:55:45.736734 INFO    [protocol] New Top Block Detected: 17856
+2020-Jul-18 09:59:06.164577 INFO    [protocol] New Top Block Detected: 17857
+2020-Jul-18 10:01:01.183043 INFO    [protocol] New Top Block Detected: 17858
+2020-Jul-18 10:01:32.472696 INFO    [protocol] New Top Block Detected: 17859
+2020-Jul-18 10:08:01.620238 INFO    [protocol] New Top Block Detected: 17860
+2020-Jul-18 10:08:32.286788 INFO    [protocol] New Top Block Detected: 17861
+2020-Jul-18 10:09:46.515436 INFO    [protocol] New Top Block Detected: 17862
+2020-Jul-18 10:11:23.508682 INFO    [protocol] New Top Block Detected: 17863
+2020-Jul-18 10:11:37.818985 INFO    [protocol] New Top Block Detected: 17864
+2020-Jul-18 10:19:34.680787 INFO    [protocol] New Top Block Detected: 17865
+2020-Jul-18 10:20:20.877466 INFO    [protocol] New Top Block Detected: 17866
+2020-Jul-18 10:42:51.431109 INFO    [protocol] New Top Block Detected: 17867
+2020-Jul-18 10:44:14.654063 INFO    [protocol] New Top Block Detected: 17868
+2020-Jul-18 10:46:47.791706 INFO    [protocol] New Top Block Detected: 17869
+2020-Jul-18 10:51:02.944447 INFO    [protocol] New Top Block Detected: 17870
+2020-Jul-18 10:52:46.299967 INFO    [protocol] New Top Block Detected: 17871
+2020-Jul-18 10:55:29.867178 INFO    [protocol] New Top Block Detected: 17872
+2020-Jul-18 10:58:55.468064 INFO    [protocol] New Top Block Detected: 17873
+2020-Jul-18 11:01:09.344648 INFO    [protocol] New Top Block Detected: 17874
+2020-Jul-18 11:03:10.399413 INFO    [protocol] New Top Block Detected: 17875
+2020-Jul-18 11:03:47.038839 INFO    [protocol] New Top Block Detected: 17876
+2020-Jul-18 11:04:27.822694 INFO    [protocol] New Top Block Detected: 17877
+2020-Jul-18 11:05:28.057006 INFO    [protocol] New Top Block Detected: 17878
+2020-Jul-18 11:15:04.856669 INFO    [protocol] New Top Block Detected: 17879
+2020-Jul-18 11:19:26.682332 INFO    [protocol] New Top Block Detected: 17880
+2020-Jul-18 11:20:12.361572 INFO    [protocol] New Top Block Detected: 17881
+2020-Jul-18 11:26:19.506351 INFO    [protocol] New Top Block Detected: 17882
+2020-Jul-18 11:33:24.967389 INFO    [protocol] New Top Block Detected: 17883
+2020-Jul-18 11:35:10.402835 INFO    [protocol] New Top Block Detected: 17884
+2020-Jul-18 11:35:45.537523 INFO    [protocol] New Top Block Detected: 17885
+2020-Jul-18 11:39:48.257508 INFO    [protocol] New Top Block Detected: 17886
+2020-Jul-18 11:57:58.905236 INFO    [protocol] New Top Block Detected: 17887
+2020-Jul-18 12:00:28.957758 INFO    [protocol] New Top Block Detected: 17888
+2020-Jul-18 12:09:10.192053 INFO    [protocol] New Top Block Detected: 17889
+2020-Jul-18 12:10:27.698607 INFO    [protocol] New Top Block Detected: 17890
+2020-Jul-18 12:13:42.904353 INFO    [protocol] New Top Block Detected: 17891
+2020-Jul-18 12:15:49.349383 INFO    [protocol] New Top Block Detected: 17892
+2020-Jul-18 12:23:51.723565 INFO    [protocol] New Top Block Detected: 17893
+2020-Jul-18 12:25:13.417812 INFO    [protocol] New Top Block Detected: 17894
+2020-Jul-18 12:28:35.246028 INFO    [protocol] New Top Block Detected: 17895
+2020-Jul-18 12:29:55.898375 INFO    [protocol] New Top Block Detected: 17896
+2020-Jul-18 12:30:19.016395 INFO    [protocol] New Top Block Detected: 17897
+2020-Jul-18 12:31:31.018327 INFO    [protocol] New Top Block Detected: 17898
+2020-Jul-18 12:32:02.146912 INFO    [protocol] New Top Block Detected: 17899
+2020-Jul-18 12:32:47.762716 INFO    [protocol] New Top Block Detected: 17900
+2020-Jul-18 12:43:15.931544 INFO    [protocol] New Top Block Detected: 17901
+2020-Jul-18 12:43:15.962652 INFO    [Core] Block 17900 (51340272c6e851f8556270210ab1d4f2a266e1547fda82b59958e2d366774fca) added to main chain
+2020-Jul-18 12:45:54.722920 INFO    [protocol] New Top Block Detected: 17902
+2020-Jul-18 12:49:29.787900 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2020-Jul-18 12:49:29.788196 DEBUG   [node_server] onIdle finished
+2020-Jul-18 12:49:29.788292 INFO    [node_server] Stopping NodeServer and its 4 connections...
+2020-Jul-18 12:49:29.788682 DEBUG   [node_server] acceptLoop() is interrupted
+2020-Jul-18 12:49:29.788793 DEBUG   [node_server] acceptLoop finished
+2020-Jul-18 12:49:29.788896 DEBUG   [node_server] timedSyncLoop() is interrupted
+2020-Jul-18 12:49:29.788959 DEBUG   [node_server] timedSyncLoop finished
+2020-Jul-18 12:49:29.789068 DEBUG   [node_server] timeoutLoop() is interrupted
+2020-Jul-18 12:49:29.789498 DEBUG   [node_server] [167.86.94.121:46703 INC] connectionHandler() inner context is interrupted
+2020-Jul-18 12:49:29.789619 DEBUG   [node_server] [167.86.94.121:46703 INC] Interrupt connection
+2020-Jul-18 12:49:29.789734 DEBUG   [node_server] [192.187.106.179:55487 INC] connectionHandler() inner context is interrupted
+2020-Jul-18 12:49:29.789823 DEBUG   [node_server] [192.187.106.179:55487 INC] Interrupt connection
+2020-Jul-18 12:49:29.789922 DEBUG   [node_server] [192.187.106.179:28288 OUT] connectionHandler() inner context is interrupted
+2020-Jul-18 12:49:29.789994 DEBUG   [node_server] [192.187.106.179:28288 OUT] Interrupt connection
+2020-Jul-18 12:49:29.790080 DEBUG   [node_server] [167.86.83.67:50853 INC] connectionHandler() inner context is interrupted
+2020-Jul-18 12:49:29.790160 DEBUG   [node_server] [167.86.83.67:50853 INC] Interrupt connection
+2020-Jul-18 12:49:29.790247 DEBUG   [node_server] [167.86.94.121:46703 INC] writeHandler finished
+2020-Jul-18 12:49:29.790327 DEBUG   [node_server] [192.187.106.179:55487 INC] writeHandler finished
+2020-Jul-18 12:49:29.790448 DEBUG   [node_server] [192.187.106.179:28288 OUT] writeHandler finished
+2020-Jul-18 12:49:29.790526 DEBUG   [node_server] [167.86.83.67:50853 INC] writeHandler finished
+2020-Jul-18 12:49:29.790602 TRACE   [node_server] [167.86.94.121:46703 INC] CLOSE CONNECTION
+2020-Jul-18 12:49:29.790746 TRACE   [node_server] [192.187.106.179:55487 INC] CLOSE CONNECTION
+2020-Jul-18 12:49:29.790859 TRACE   [node_server] [192.187.106.179:28288 OUT] CLOSE CONNECTION
+2020-Jul-18 12:49:29.790955 TRACE   [node_server] [167.86.83.67:50853 INC] CLOSE CONNECTION
+2020-Jul-18 12:49:29.791070 INFO    [node_server] NodeServer loop stopped
+2020-Jul-18 12:49:29.791272 INFO    [daemon] p2p net loop stopped
+2020-Jul-18 12:49:29.791345 INFO    [daemon] Stopping core rpc server...
+2020-Jul-18 12:49:29.796247 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24292 total=50
+2020-Jul-18 12:49:29.796816 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24319 total=49
+2020-Jul-18 12:49:29.797355 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24260 total=48
+2020-Jul-18 12:49:29.797995 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24261 total=47
+2020-Jul-18 12:49:29.798331 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24263 total=46
+2020-Jul-18 12:49:29.798822 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24264 total=45
+2020-Jul-18 12:49:29.799173 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24288 total=44
+2020-Jul-18 12:49:29.799510 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24289 total=43
+2020-Jul-18 12:49:29.799850 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24291 total=42
+2020-Jul-18 12:49:29.800234 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24700 total=41
+2020-Jul-18 12:49:29.800776 DEBUG   [HttpServer] Closing connection from 14.192.213.97:24643 total=40
+2020-Jul-18 12:49:29.801365 DEBUG   [HttpServer] Closing connection from 14.192.213.97:18293 total=39
+2020-Jul-18 12:49:29.801920 DEBUG   [HttpServer] Closing connection from 14.192.213.97:18288 total=38
+2020-Jul-18 12:49:29.802386 DEBUG   [HttpServer] Closing connection from 14.192.213.97:18296 total=37
+2020-Jul-18 12:49:29.802873 DEBUG   [HttpServer] Closing connection from 14.192.213.97:18300 total=36
+2020-Jul-18 12:49:29.803228 DEBUG   [HttpServer] Closing connection from 14.192.213.97:18303 total=35
+2020-Jul-18 12:49:29.803533 DEBUG   [HttpServer] Closing connection from 14.192.213.97:17424 total=34
+2020-Jul-18 12:49:29.804045 DEBUG   [HttpServer] Closing connection from 14.192.213.97:17425 total=33
+2020-Jul-18 12:49:29.804426 DEBUG   [HttpServer] Closing connection from 14.192.213.97:17420 total=32
+2020-Jul-18 12:49:29.804736 DEBUG   [HttpServer] Closing connection from 14.192.213.97:18260 total=31
+2020-Jul-18 12:49:29.805406 DEBUG   [HttpServer] Closing connection from 14.192.213.97:18261 total=30
+2020-Jul-18 12:49:29.805764 DEBUG   [HttpServer] Closing connection from 14.192.213.97:18279 total=29
+2020-Jul-18 12:49:29.806041 DEBUG   [HttpServer] Closing connection from 14.192.213.97:18281 total=28
+2020-Jul-18 12:49:29.806265 DEBUG   [HttpServer] Closing connection from 14.192.212.165:35482 total=27
+2020-Jul-18 12:49:29.806846 DEBUG   [HttpServer] Closing connection from 14.192.212.165:35486 total=26
+2020-Jul-18 12:49:29.807251 DEBUG   [HttpServer] Closing connection from 14.192.212.165:35470 total=25
+2020-Jul-18 12:49:29.807728 DEBUG   [HttpServer] Closing connection from 14.192.212.165:35471 total=24
+2020-Jul-18 12:49:29.808244 DEBUG   [HttpServer] Closing connection from 14.192.212.165:33141 total=23
+2020-Jul-18 12:49:29.808932 DEBUG   [HttpServer] Closing connection from 14.192.212.165:33149 total=22
+2020-Jul-18 12:49:29.809258 DEBUG   [HttpServer] Closing connection from 14.192.212.165:25091 total=21
+2020-Jul-18 12:49:29.809834 DEBUG   [HttpServer] Closing connection from 14.192.212.165:25097 total=20
+2020-Jul-18 12:49:29.810158 DEBUG   [HttpServer] Closing connection from 115.164.86.166:45540 total=19
+2020-Jul-18 12:49:29.810540 DEBUG   [HttpServer] Closing connection from 14.192.212.165:25108 total=18
+2020-Jul-18 12:49:29.810965 DEBUG   [HttpServer] Closing connection from 14.192.212.165:25112 total=17
+2020-Jul-18 12:49:29.811267 DEBUG   [HttpServer] Closing connection from 14.192.212.165:4025 total=16
+2020-Jul-18 12:49:29.811705 DEBUG   [HttpServer] Closing connection from 14.192.212.165:4026 total=15
+2020-Jul-18 12:49:29.812057 DEBUG   [HttpServer] Closing connection from 14.192.212.165:3994 total=14
+2020-Jul-18 12:49:29.814591 DEBUG   [HttpServer] Closing connection from 14.192.212.165:3998 total=13
+2020-Jul-18 12:49:29.815060 DEBUG   [HttpServer] Closing connection from 14.192.212.165:4006 total=12
+2020-Jul-18 12:49:29.815727 DEBUG   [HttpServer] Closing connection from 14.192.212.165:4008 total=11
+2020-Jul-18 12:49:29.816037 DEBUG   [HttpServer] Closing connection from 14.192.212.165:3984 total=10
+2020-Jul-18 12:49:29.816745 DEBUG   [HttpServer] Closing connection from 14.192.212.165:3985 total=9
+2020-Jul-18 12:49:29.817297 DEBUG   [HttpServer] Closing connection from 14.192.212.165:3995 total=8
+2020-Jul-18 12:49:29.817749 DEBUG   [HttpServer] Closing connection from 14.192.212.165:3999 total=7
+2020-Jul-18 12:49:29.818105 DEBUG   [HttpServer] Closing connection from 14.192.212.165:25137 total=6
+2020-Jul-18 12:49:29.818654 DEBUG   [HttpServer] Closing connection from 14.192.212.165:25138 total=5
+2020-Jul-18 12:49:29.819164 DEBUG   [HttpServer] Closing connection from 115.164.82.187:26058 total=4
+2020-Jul-18 12:49:29.819632 DEBUG   [HttpServer] Closing connection from 115.164.82.187:26068 total=3
+2020-Jul-18 12:49:29.819921 DEBUG   [HttpServer] Closing connection from 121.122.101.183:33386 total=2
+2020-Jul-18 12:49:29.820488 DEBUG   [HttpServer] Closing connection from 121.122.101.183:39748 total=1
+2020-Jul-18 12:49:29.820787 INFO    [daemon] Deinitializing p2p...
+2020-Jul-18 12:49:29.831835 DEBUG   [Core] transactionPoolCleaningProcedure has been interrupted
+2020-Jul-18 12:49:29.836224 INFO    [RocksDBWrapper] Closing DB.
+2020-Jul-18 12:49:29.905494 INFO    [daemon] Node stopped.
+2020-Aug-11 03:49:43.455793 INFO    [daemon] 
+
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+ Deccash v1.2.2.0002 ()
+ This software is distributed under the General Public License v3.0
+
+ Copyright 2020, The Deccash Project
+
+ Copyright (c) 2019, The Deccash Project, please see the included LICENSE file for more information.
+ If you did not receive a copy of the LICENSE, please visit:
+ https://github.com/deccash/dec/
+
+
+2020-Aug-11 03:49:43.460649 INFO    [daemon] Program Working Directory: ./decd
+2020-Aug-11 03:49:43.460874 INFO    [daemon] Loading Checkpoints for faster initial sync...
+2020-Aug-11 03:49:43.460957 INFO    [daemon] Loaded 0 default checkpoints
+2020-Aug-11 03:49:43.461078 INFO    [RocksDBWrapper] Opening DB in /home/deccash/.Deccash/DB
+2020-Aug-11 03:49:43.511561 INFO    [RocksDBWrapper] DB opened in /home/deccash/.Deccash/DB
+2020-Aug-11 03:49:43.522201 INFO    [daemon] Initializing core...
+2020-Aug-11 03:49:43.534174 INFO    [Core] Importing blocks from blockchain storage
+2020-Aug-11 03:49:44.249528 INFO    [Core] Imported block with index 19000 / 25991
+2020-Aug-11 03:49:44.978626 INFO    [Core] Imported block with index 20000 / 25991
+2020-Aug-11 03:49:45.665290 INFO    [Core] Imported block with index 21000 / 25991
+2020-Aug-11 03:49:46.421640 INFO    [Core] Imported block with index 22000 / 25991
+2020-Aug-11 03:49:47.128733 INFO    [Core] Imported block with index 23000 / 25991
+2020-Aug-11 03:49:47.859816 INFO    [Core] Imported block with index 24000 / 25991
+2020-Aug-11 03:49:48.523147 INFO    [Core] Imported block with index 25000 / 25991
+2020-Aug-11 03:49:49.161853 INFO    [daemon] Core initialized OK
+2020-Aug-11 03:49:49.162029 INFO    [daemon] Initializing p2p server...
+2020-Aug-11 03:49:49.162344 INFO    [node_server] Binding on 0.0.0.0:28288
+2020-Aug-11 03:49:49.162474 INFO    [node_server] Net service binded on 0.0.0.0:28288
+2020-Aug-11 03:49:49.162530 INFO    [node_server] Attempting to add IGD port mapping.
+2020-Aug-11 03:49:53.167560 INFO    [node_server] No IGD was found.
+2020-Aug-11 03:49:53.167700 INFO    [daemon] P2p server initialized OK
+2020-Aug-11 03:49:53.168024 INFO    [daemon] Starting core rpc server on address 127.0.0.1:28287
+2020-Aug-11 03:49:53.168287 INFO    [daemon] Core rpc server started ok
+2020-Aug-11 03:49:53.168354 INFO    [daemon] Starting p2p net loop...
+2020-Aug-11 03:49:53.168400 INFO    [node_server] Starting node_server
+2020-Aug-11 03:49:53.172448 INFO    [protocol] [192.187.106.179:48957 INC] Your Deccash node is syncing with the network (99.99% complete) You are 1 blocks (0 days) behind the current peer you're connected to. Be Deccash and enjoy! 
+2020-Aug-11 03:49:53.172584 INFO    [protocol] New Top Block Detected: 25993
+2020-Aug-11 03:49:53.839513 INFO    [protocol] [192.187.106.179:48957 INC] Successfully synchronized with the Deccash Network.
+2020-Aug-11 03:49:53.839652 INFO    [protocol] 
+2020-Aug-11 03:49:53.839714 INFO    [protocol] ===[ Deccash Tip! ]=============================
+2020-Aug-11 03:49:53.839780 INFO    [protocol]  Always exit decd and decwallet with the "exit" command to preserve your chain and wallet data.
+2020-Aug-11 03:49:53.839847 INFO    [protocol]  Use the "help" command to see a list of available commands.
+2020-Aug-11 03:49:53.839919 INFO    [protocol]  Use the "backup" command in decwallet to display your keys/seed for restoring a corrupted wallet.
+2020-Aug-11 03:49:53.839983 INFO    [protocol]  If you need more assistance, you can contact us for support at http://discord.gg/XQcJfW
+2020-Aug-11 03:49:53.840054 INFO    [protocol] ===================================================
+2020-Aug-11 03:49:53.840054 INFO    [protocol] 
+2020-Aug-11 03:49:53.840171 INFO    [protocol] 
+                                                       
+██████╗ ███████╗ ██████╗ ██████╗ █████╗ ███████╗██╗  ██╗ 
+██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝██║  ██║ 
+██║  ██║█████╗  ██║     ██║     ███████║███████╗███████║ 
+██║  ██║██╔══╝  ██║     ██║     ██╔══██║╚════██║██╔══██║ 
+██████╔╝███████╗╚██████╗╚██████╗██║  ██║███████║██║  ██║ 
+╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ 
+
+2020-Aug-11 03:50:15.858302 INFO    [protocol] Connections: 
+2020-Aug-11 03:50:15.858302 INFO    [protocol] Remote Host              Peer ID             Recv/Sent (inactive,sec) State                    Lifetime(seconds)   
+[INCOMING]167.86.94.121:443172e00df01afda9a62    state_normal             15                  
+[INCOMING]192.187.106.179:4895793773101b38c0a25    state_normal             22                  
+
+2020-Aug-11 03:51:15.428298 INFO    [protocol] Connections: 
+2020-Aug-11 03:51:15.428298 INFO    [protocol] Remote Host              Peer ID             Recv/Sent (inactive,sec) State                    Lifetime(seconds)   
+[INCOMING]167.86.94.121:443172e00df01afda9a62    state_normal             75                  
+[INCOMING]192.187.106.179:4895793773101b38c0a25    state_normal             82                  
+
+2020-Aug-11 03:51:20.780907 INFO    [protocol] Connections: 
+2020-Aug-11 03:51:20.780907 INFO    [protocol] Remote Host              Peer ID             Recv/Sent (inactive,sec) State                    Lifetime(seconds)   
+[INCOMING]167.86.94.121:443172e00df01afda9a62    state_normal             80                  
+[INCOMING]192.187.106.179:4895793773101b38c0a25    state_normal             87                  
+
+2020-Aug-11 03:59:15.368684 INFO    [protocol] Connections: 
+2020-Aug-11 03:59:15.368684 INFO    [protocol] Remote Host              Peer ID             Recv/Sent (inactive,sec) State                    Lifetime(seconds)   
+[INCOMING]167.86.94.121:443172e00df01afda9a62    state_normal             555                 
+[INCOMING]192.187.106.179:4895793773101b38c0a25    state_normal             562                 
+
+2020-Aug-11 04:06:46.281088 INFO    [protocol] New Top Block Detected: 25994
+2020-Aug-11 04:08:20.810263 INFO    [node_server] Stop signal sent, please only EXIT or CTRL+C one time to avoid stalling the shutdown process.
+2020-Aug-11 04:08:20.810497 INFO    [node_server] Stopping NodeServer and its 2 connections...
+2020-Aug-11 04:08:20.811535 DEBUG   [node_server] acceptLoop() is interrupted
+2020-Aug-11 04:08:20.811664 DEBUG   [node_server] acceptLoop finished
+2020-Aug-11 04:08:20.811724 DEBUG   [node_server] onIdle() is interrupted
+2020-Aug-11 04:08:20.811826 DEBUG   [node_server] onIdle finished
+2020-Aug-11 04:08:20.811901 DEBUG   [node_server] timedSyncLoop() is interrupted
+2020-Aug-11 04:08:20.811952 DEBUG   [node_server] timedSyncLoop finished
+2020-Aug-11 04:08:20.812023 DEBUG   [node_server] timeoutLoop() is interrupted
+2020-Aug-11 04:08:20.812115 DEBUG   [node_server] [192.187.106.179:48957 INC] connectionHandler() inner context is interrupted
+2020-Aug-11 04:08:20.812186 DEBUG   [node_server] [192.187.106.179:48957 INC] Interrupt connection
+2020-Aug-11 04:08:20.812246 DEBUG   [node_server] [167.86.94.121:44317 INC] connectionHandler() inner context is interrupted
+2020-Aug-11 04:08:20.812293 DEBUG   [node_server] [167.86.94.121:44317 INC] Interrupt connection
+2020-Aug-11 04:08:20.812363 DEBUG   [node_server] [192.187.106.179:48957 INC] writeHandler finished
+2020-Aug-11 04:08:20.812411 DEBUG   [node_server] [167.86.94.121:44317 INC] writeHandler finished
+2020-Aug-11 04:08:20.812453 TRACE   [node_server] [192.187.106.179:48957 INC] CLOSE CONNECTION
+2020-Aug-11 04:08:20.812558 TRACE   [node_server] [167.86.94.121:44317 INC] CLOSE CONNECTION
+2020-Aug-11 04:08:20.812632 INFO    [node_server] NodeServer loop stopped
+2020-Aug-11 04:08:20.812693 INFO    [daemon] p2p net loop stopped
+2020-Aug-11 04:08:20.812738 INFO    [daemon] Stopping core rpc server...
+2020-Aug-11 04:08:20.812888 INFO    [daemon] Deinitializing p2p...
+2020-Aug-11 04:08:20.818561 DEBUG   [Core] transactionPoolCleaningProcedure has been interrupted
+2020-Aug-11 04:08:20.820592 INFO    [RocksDBWrapper] Closing DB.
+2020-Aug-11 04:08:21.316322 INFO    [daemon] Node stopped.

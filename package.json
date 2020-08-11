@@ -1,0 +1,43 @@
+{
+  "name": "deccash-daemon-ha",
+  "version": "0.1.2",
+  "description": "Wraps the Deccash Daemon and helps keep the daemon synchronized and ready for connections.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run checkpoints",
+    "start": "node service.js",
+    "checkpoints": "node checkpoints.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deccash/deccash-daemon-ha.git"
+  },
+  "keywords": [
+    "Deccash",
+    "wrapper",
+    "high-availability",
+    "API",
+    "RPC",
+    "websocket"
+  ],
+  "author": "Brandon Lehmann <brandonlehmann@gmail.com>",
+  "contributors": [
+    "Deeterd <deeterd@pm.me>"
+  ],
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@pm2/io": "^4.2.4",
+    "deccash-rpc": "^1.0.2",
+    "node-pty": "^0.9.0",
+    "nonce": "^1.0.4",
+    "sha256": "^0.2.0",
+    "shelljs": "^0.8.3",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "peerDependencies": {
+    "@pm2/io": "^4.2.4"
+  }
+}
